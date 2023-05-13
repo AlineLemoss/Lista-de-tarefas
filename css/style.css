@@ -1,0 +1,123 @@
+body{
+    background: blue;
+}
+
+.titulo{
+    text-align: center;
+    color: blue;
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 40%;
+    background: white;
+    min-width: 450px;
+    max-height: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#addTarefa{
+    padding: 30px 20px;
+}
+
+#addTarefa input {
+    width: 75%;
+    height: 25px;
+    font-family: 'Lucida Sans',sans-serif;
+    font-size: 14px;
+    border: 2px solid #d1d3d4;
+    padding: 4px;
+    color: #111;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#addTarefa input:focus{
+    outline: none;
+    border-color: blue;
+}
+
+#addTarefa button {
+    float: right;
+    width: 20%;
+    height: 35px;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 14px;
+    background: blue;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+#addTarefa button:hover{
+    background: #0d75ec;
+}
+
+#tarefa{
+    background-color: #1c7686;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solide #939;
+    cursor: pointer;
+}
+
+.button-lista{
+    
+    float: right;
+    width: 10%;
+    height: 35px;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    background: blue;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+.button-lista:hover{
+    background: #0d75ec;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+
+li{
+    height: 50px;
+    margin: 10px 0 10px 0;
+    background: rgb(248, 248, 248);
+    padding: 10px 5px 1px 5px;
+    border-radius: 5px;
+}
+
+ul{
+    
+    min-height: 120px;
+    list-style-type: none;
+    overflow-y: auto;
+    max-height: 230px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', sans-serif;
+    padding: 10px;
+    max-width: 495px;
+}
+
+.checkbox{
+    cursor: pointer;
+    width: 25px;
+
+}
